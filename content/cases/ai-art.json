@@ -1,0 +1,174 @@
+{
+  "id": "ai-art-001",
+  "slug": "ai-art",
+  "title": "AI Art vs Human Authorship",
+  "defendantIdea": "AI-generated art",
+  "charge": "AI art stands accused of separating creative output from lived artistic labor.",
+  "whyItMattersNow": "Debates over AI art are reshaping how we think about authorship, labor, originality, and cultural value — in galleries, in studios, in classrooms, and on every platform that hosts images.",
+  "domains": ["art", "technology", "ethics", "culture"],
+  "difficulty": "medium",
+  "estimatedMinutes": 8,
+  "openingStatements": {
+    "prosecution": "AI image systems were trained on the work of millions of artists without consent, without payment, and without attribution. What is sold to the public as 'creativity' is, in fact, a sophisticated extraction engine — one that vacuums up the labor of working illustrators, photographers, and painters, and resells a flattened average of their style at a fraction of the cost. Behind every clean prompt-to-image result is an invisible workforce whose careers are being hollowed out in real time. We will show that AI art does not extend human authorship. It substitutes for it, while severing the link between the artwork and the human conditions that made it possible.",
+    "defense": "Every generation of new tools has been accused of killing art. The camera was supposed to kill painting. The synthesizer was supposed to kill the musician. Photoshop, sampling, digital collage — each was, in its moment, called fraudulent or extractive. None of them did what their critics feared, and none of them ended the human appetite to make and re-make meaning. AI image systems are tools — strange, fast, sometimes startling — but tools. They lower the cost of trying an idea. They give disabled artists, late starters, and outsiders ways into image-making that they were locked out of before. The defense will show that what is on trial is not theft, but a shift in who gets to be called an author at all."
+  },
+  "evidence": [
+    {
+      "id": "ev-photography-panic",
+      "type": "historical",
+      "side": "defense",
+      "title": "The 1859 panic over photography",
+      "body": "When photography arrived, critics including Baudelaire warned it would degrade painting and reduce art to mechanical recording. Within a generation, photography expanded what painting could do (by freeing it from likeness) and became its own serious art form. The panic did not predict the outcome.",
+      "sourceNote": "Baudelaire, 'The Modern Public and Photography', 1859.",
+      "weight": 2
+    },
+    {
+      "id": "ev-viral-prize",
+      "type": "example",
+      "side": "prosecution",
+      "title": "An AI image wins a state art fair",
+      "body": "In 2022, an image generated with a text-to-image system won first place in the digital art category at the Colorado State Fair, beating human-painted submissions. The winner had not disclosed the use of AI in the submission process. Working illustrators publicly described the result as 'a gut punch'.",
+      "sourceNote": "Widely reported; see coverage of the Colorado State Fair Fine Arts Competition, 2022.",
+      "weight": 2
+    },
+    {
+      "id": "ev-platform-policy",
+      "type": "policy",
+      "side": "prosecution",
+      "title": "Illustrators' union calls for opt-out and compensation",
+      "body": "Multiple illustrators' guilds and a coalition of stock-image contributors have called on training data providers to allow artists to opt out of model training and to share licensing revenue. Several major image platforms have since added partial opt-out flags but have not paid contributors retroactively.",
+      "weight": 1
+    },
+    {
+      "id": "ev-disabled-collab",
+      "type": "counterexample",
+      "side": "defense",
+      "title": "An artist with limited motor control finishes a long-stalled series",
+      "body": "A painter who lost fine motor control after an injury describes using AI image tools as 'a prosthetic for the part of my hand that no longer works'. She composes, edits, and integrates AI passes into hand-finished pieces, and has resumed exhibiting after a five-year pause.",
+      "sourceNote": "Composite of interviews documented in disability arts publications, 2023–2025.",
+      "weight": 2
+    },
+    {
+      "id": "ev-self-trained",
+      "type": "edge_case",
+      "side": "neutral",
+      "title": "A painter trains a model only on her own twenty-year archive",
+      "body": "A working painter fine-tunes an open-source model exclusively on her own catalogue of paintings and sketches, then uses it to generate compositional studies for new pieces. No outside artist is in the training set. The question of authorship becomes harder to dismiss either way.",
+      "weight": 2
+    },
+    {
+      "id": "ev-critic-quote",
+      "type": "quote",
+      "side": "prosecution",
+      "title": "A critic on what makes art 'real'",
+      "body": "'A painting is the residue of a person standing in front of a surface for a long time and making decisions they could not have predicted at the start. Take the standing and the time and the unpredictability away, and you may still have an image. You do not have a painting.'",
+      "sourceNote": "Composite of remarks attributed to gallery critics, 2023–2024.",
+      "weight": 1
+    }
+  ],
+  "crossExam": [
+    {
+      "id": "ce-suffering-artist",
+      "prompt": "Does authentic art require the artist to have struggled to produce it?",
+      "options": [
+        {
+          "id": "ce1-a",
+          "label": "Yes — without effort and risk, there is no real authorship.",
+          "rationale": "This view has deep romantic roots, but it conflates the value of the work with the visible cost of making it. Many revered works are improvisations made quickly; many tortured productions are forgettable. Effort is evidence of care, not a guarantee of meaning."
+        },
+        {
+          "id": "ce1-b",
+          "label": "No — what matters is the intention and judgment behind the work.",
+          "rationale": "This is closer to a conceptual-art position: authorship lives in selection and framing, not in physical exertion. It opens the door to AI as a legitimate tool but raises a follow-up: whose intention is being executed when the prompt is short and the model is large?"
+        },
+        {
+          "id": "ce1-c",
+          "label": "Sometimes — it depends on what the work is trying to do.",
+          "rationale": "A reasonable middle position. A devotional icon, a protest poster, and a generative sketch are doing different jobs; the role of struggle is not the same for each. Resist any single rule about 'real' art."
+        }
+      ]
+    },
+    {
+      "id": "ce-neutral-tools",
+      "prompt": "Are creative tools politically and ethically neutral?",
+      "options": [
+        {
+          "id": "ce2-a",
+          "label": "Yes — a tool is just a tool. The user gives it meaning.",
+          "rationale": "This is the classic 'guns don't kill people' move applied to media. It ignores that tools embed defaults: what they make easy, who they make visible, who they make cheap to replace. Defaults are not neutral."
+        },
+        {
+          "id": "ce2-b",
+          "label": "No — tools carry the values of their makers and their training data.",
+          "rationale": "A widely held view in science and technology studies. AI image systems carry the styles, biases, and gaps of their training corpora; they make some images cheap and others almost impossible. That is not neutral."
+        },
+        {
+          "id": "ce2-c",
+          "label": "Tools are neutral, but markets around them are not.",
+          "rationale": "A useful distinction. Even granting tool neutrality, the labor market that forms around a tool — pricing, attribution, contracts — can still be extractive. Most fights about AI art are really fights about that market."
+        }
+      ]
+    },
+    {
+      "id": "ce-influence-vs-extraction",
+      "prompt": "When does drawing on other artists' work become extraction rather than influence?",
+      "options": [
+        {
+          "id": "ce3-a",
+          "label": "When the original artists are not credited or paid.",
+          "rationale": "Strong on labor ethics. It maps cleanly onto the case for licensing and opt-out regimes, and it puts the question on terrain — credit and money — that can actually be regulated."
+        },
+        {
+          "id": "ce3-b",
+          "label": "When the new work is substitutable for the original in the market.",
+          "rationale": "An economic test. It captures why illustrators feel threatened in a way that, say, a literary critic quoting a novelist does not. Substitutability is more decisive than mere resemblance."
+        },
+        {
+          "id": "ce3-c",
+          "label": "When the original tradition is being mined faster than it can renew.",
+          "rationale": "A cultural-ecology framing. Influence assumes a living tradition that can absorb borrowing; extraction depletes the conditions under which the tradition keeps producing new work. Useful for thinking about whole genres, not just individual artists."
+        }
+      ]
+    }
+  ],
+  "verdictAxes": [
+    {
+      "id": "harmful_useful",
+      "axisName": "Harmful ↔ Useful",
+      "lowLabel": "Harmful",
+      "highLabel": "Useful"
+    },
+    {
+      "id": "liberating_restrictive",
+      "axisName": "Restrictive ↔ Liberating",
+      "lowLabel": "Restrictive",
+      "highLabel": "Liberating"
+    },
+    {
+      "id": "honest_deceptive",
+      "axisName": "Deceptive ↔ Honest",
+      "lowLabel": "Deceptive",
+      "highLabel": "Honest"
+    }
+  ],
+  "debrief": {
+    "summary": "AI art unsettles the traditional links between expression, labor, originality, and tools. The fights around it are not really about whether an image is pretty. They are about who counts as an author, whose work can be drawn on without permission, and which kinds of artistic labor we will agree to value once a machine can imitate them cheaply.",
+    "defenseTraditions": [
+      "tool-use history",
+      "democratization of media",
+      "post-medium practice",
+      "appropriation art",
+      "conceptual art"
+    ],
+    "critiqueTraditions": [
+      "labor ethics",
+      "authorship theory",
+      "cultural extraction critique",
+      "political economy of media",
+      "craft and embodiment"
+    ],
+    "contextNotes": "Every shift in image-making technology has prompted a similar fight: lithography in the 19th century, photography shortly after, photomontage in the 1920s, sampling in the 1980s, digital compositing in the 1990s. In each case, critics warned that the new tool would replace authorship; in each case, the more accurate result was that authorship was redistributed. New roles appeared (the photographer, the DJ, the compositor) and some older roles became scarcer or worse paid.\n\nWhat makes the AI moment different is the speed and the scale. Diffusion models can absorb millions of images in weeks, and a non-specialist can produce credible work in seconds. The questions of consent, attribution, and substitutability are not new — but the size of the gap between how fast the tool moves and how slowly labor markets and copyright systems move is new.",
+    "transferNotes": "The same arguments recur in music (sample clearance, voice cloning, AI-generated tracks), in writing (training corpora drawn from web scrapes, ghostwriting at industrial scale), and in design (logo and layout generators replacing junior roles). If you found a stable position on AI art, test it against those domains — it often bends.",
+    "relatedCases": ["copyright", "originality", "authenticity"]
+  }
+}
